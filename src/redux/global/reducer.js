@@ -1,6 +1,8 @@
 import produce from "immer";
 
-export const INITIAL_STATE = {};
+export const INITIAL_STATE = {
+  test:''
+};
 
 const globalReducer = (state = INITIAL_STATE, action) => {
   try {
