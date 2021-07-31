@@ -1,0 +1,194 @@
+@import "./color.scss";
+
+.attendanceDiv {
+  .gorrwN {
+    margin-bottom: 0px !important;
+  }
+  // height: 660px !important;
+  // overflow: hidden;
+}
+.timekeepingDiv {
+  .gorrwN {
+    margin-bottom: 0px !important;
+  }
+}
+
+.attendanceCalendarDiv {
+  height: 500px !important;
+  .requestBtn {
+    background-color: $dotOrrange;
+    color: $dotWhite;
+  }
+  .dateDetails {
+    display: inline-flex;
+    gap: 20px;
+    align-items: baseline;
+  }
+  .rbc-calendar {
+    box-sizing: border-box;
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .rbc-month-row {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex: 1 0;
+    flex-basis: 60px !important;
+    overflow: hidden;
+    height: 100%;
+  }
+  // .rbc-row-bg {
+  //   display: flex;
+  //   flex-direction: row;
+  //   flex: 1 0;
+  //   overflow: hidden;
+  //   height: 80px !important;
+  // }
+  .rbc-month-view .rbc-row.rbc-month-header {
+    background-color: $dotNavyBlue !important;
+    color: $dotWhite;
+    font-size: 16px;
+  }
+  .rbc-toolbar .rbc-toolbar-label {
+    color: $dotNavyBlue;
+    font-size: 24px;
+    font-family: QuicksandBold;
+  }
+  .rbc-toolbar {
+    margin-bottom: 0px !important;
+  }
+
+  .rbc-month-view .rbc-row.rbc-month-header .rbc-header {
+    padding: 8px;
+  }
+
+  .rbc-row-content .rbc-row .rbc-date-cell {
+    color: $dotNavyBlue;
+    font-size: 16px;
+    font-family: QuicksandBold;
+    padding: 0.8% 0.8% 0% 0%;
+  }
+
+  .rbc-row .rbc-date-cell.rbc-now {
+    color: $dotBlack;
+  }
+
+  .rbc-row-bg .rbc-day-bg .rbc-today {
+    background-color: $dotLightBlue;
+  }
+
+  .rbc-row.rbc-month-header .rbc-month-row {
+    background-color: $dotWhite;
+  }
+
+  .rbc-row-bg .rbc-off-range-bg {
+    background-color: $dotWhite;
+  }
+
+  .rbc-row-bg .rbc-day-bg {
+    background-color: $dotWhite;
+  }
+
+  .rbc-row-bg .rbc-today {
+    background-color: $dotLightBlue;
+  }
+
+  .rbc-row-content .rbc-row .rbc-off-range {
+    color: $dotLightGrey;
+  }
+
+  .rbc-row-segment .rbc-event {
+    background-color: $dotOrrange;
+    border-radius: 6px;
+    padding: 4px;
+    font-size: 100%;
+    font-family: QuicksandMedium;
+    text-align: center;
+    outline: none !important;
+  }
+
+  .rbc-row .rbc-row-segment {
+    padding: 2px 10px 2px 10px;
+  }
+
+  .rbc-calendar .rbc-month-view {
+    border-radius: 20px;
+    border-color: $dotWhite;
+    margin: 20px 0px 20px 0px;
+    border: 0px;
+  }
+
+  .rbc-month-view .rbc-row.rbc-month-header {
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .rbc-toolbar .rbc-btn-group {
+    z-index: 0;
+    position: absolute;
+    button {
+      cursor: pointer;
+    }
+  }
+
+  .rbc-toolbar .rbc-btn-group button:first-child {
+    display: none;
+  }
+
+  .rbc-toolbar .rbc-btn-group button:last-child {
+    margin-left: 220px;
+    min-height: 30px;
+    width: 30px;
+    color: transparent;
+    border: none;
+    background-image: url("../images/Icon\ feather-arrow-lright-circle.svg");
+    background-size: cover;
+    background-position: center;
+    outline: none;
+    box-shadow: transparent;
+    background-color: transparent;
+  }
+
+  .rbc-toolbar .rbc-btn-group button:last-child:hover {
+    background-color: transparent;
+  }
+
+  .rbc-toolbar .rbc-btn-group button:last-child:focus {
+    color: transparent;
+    background-color: transparent;
+  }
+
+  .rbc-toolbar .rbc-btn-group button:nth-child(2) {
+    min-height: 30px;
+    width: 30px;
+    color: transparent;
+    border: none;
+    background-image: url("../images/Icon\ feather-arrow-left-circle.svg");
+    background-size: cover;
+    background-position: center;
+    outline: none;
+  }
+
+  .rbc-toolbar .rbc-btn-group button:nth-child(2):hover {
+    background-color: transparent;
+  }
+
+  .rbc-toolbar .rbc-btn-group button:nth-child(2):focus {
+    color: transparent;
+    background-color: transparent;
+  }
+
+  .rbc-month-view .rbc-month-row:last-child {
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  .calendarHeader .rbc-month-view {
+    display: none;
+  }
+
+  .calendarHeader .rbc-time-view {
+    display: none;
+  }
+}

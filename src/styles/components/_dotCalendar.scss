@@ -1,0 +1,217 @@
+@import "./color.scss";
+
+
+
+
+.CalendarDiv{
+  .rbc-month-row {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex: 1 0;
+    flex-basis: 90px !important;
+    overflow: hidden;
+    height: 100%;
+} 
+
+.rbc-toolbar {
+  margin-bottom: 0px !important;
+}
+.rbc-month-view .rbc-row.rbc-month-header {
+  background-color: $dotNavyBlue !important;
+  color: $dotWhite;
+  font-size: 16px;
+}
+}.rbc-toolbar .rbc-toolbar-label {
+  color: $dotNavyBlue;
+  font-size: 24px;
+  font-family: QuicksandBold;
+}
+
+.rbc-month-view .rbc-row.rbc-month-header .rbc-header {
+  padding: 8px;
+}
+
+.rbc-row-content .rbc-row .rbc-date-cell {
+  color: $dotNavyBlue;
+  font-size: 16px;
+  font-family: QuicksandBold;
+  padding: 0.8% 0.8% 0% 0%;
+}
+
+.rbc-row .rbc-date-cell.rbc-now {
+  color: $dotBlack;
+}
+
+.rbc-row-bg .rbc-day-bg .rbc-today {
+  background-color: $dotLightBlue;
+}
+
+.rbc-row.rbc-month-header .rbc-month-row {
+  background-color: $dotWhite;
+}
+
+.rbc-row-bg .rbc-off-range-bg {
+  background-color: $dotWhite;
+}
+
+.rbc-row-bg .rbc-day-bg {
+  background-color: $dotWhite;
+}
+
+.rbc-row-bg .rbc-today {
+  background-color: $dotLightBlue;
+}
+
+.rbc-row-content .rbc-row .rbc-off-range {
+  color: $dotLightGrey;
+}
+
+.rbc-row-segment .rbc-event {
+  background-color: $dotOrrange;
+  border-radius: 6px;
+  padding: 4px;
+  font-size: 100%;
+  font-family: QuicksandMedium;
+  text-align: center;
+  outline: none !important;
+}
+
+.rbc-row .rbc-row-segment {
+  padding: 2px 10px 2px 10px;
+}
+
+.rbc-calendar .rbc-month-view {
+  border-radius: 20px;
+  border-color: $dotWhite;
+  margin: 20px 0px 20px 0px;
+  border: 0px;
+}
+
+.rbc-month-view .rbc-row.rbc-month-header {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.rbc-toolbar .rbc-btn-group {
+  z-index: 0;
+  position: absolute;
+  button{
+    cursor: pointer;
+  }
+}
+
+.rbc-toolbar .rbc-btn-group button:first-child {
+  display: none;
+}
+
+.rbc-toolbar .rbc-btn-group button:last-child {
+  margin-left: 220px;
+  min-height: 30px;
+  width: 30px;
+  color: transparent;
+  border: none;
+  background-image: url("../images/Icon\ feather-arrow-lright-circle.svg");
+  background-size: cover;
+  background-position: center;
+  outline: none;
+  box-shadow: transparent;
+  background-color: transparent
+}
+
+.rbc-toolbar .rbc-btn-group button:last-child:hover {
+  background-color: transparent;
+}
+
+.rbc-toolbar .rbc-btn-group button:last-child:focus {
+  color: transparent;
+  background-color: transparent;
+}
+
+.rbc-toolbar .rbc-btn-group button:nth-child(2) {
+  min-height: 30px;
+  width: 30px;
+  color: transparent;
+  border: none;
+  background-image: url("../images/Icon\ feather-arrow-left-circle.svg");
+  background-size: cover;
+  background-position: center;
+  outline: none;
+}
+
+.rbc-toolbar .rbc-btn-group button:nth-child(2):hover {
+  background-color: transparent;
+}
+
+.rbc-toolbar .rbc-btn-group button:nth-child(2):focus {
+  color: transparent;
+  background-color: transparent;
+}
+
+.rbc-month-view .rbc-month-row:last-child {
+  border-radius: 0px 0px 20px 20px;
+}
+
+.calendarHeader .rbc-month-view {
+  display: none;
+}
+
+.calendarHeader .rbc-time-view {
+  display: none;
+
+}
+
+
+// .cusTimekeepingWraper{
+//  
+// }
+.cusTimekeepingDiv{
+  .ui.grid > .column:not(.row) {
+    padding-top: 0px !important;
+  }
+  .gorrwN{
+       margin-bottom: 0px !important;
+     }
+  .three{
+    padding-top: 0px !important;
+  }
+}
+.slotDetails{
+  display: flex;
+  gap: 10px;
+  .legendOuter{
+    
+    display: flex;
+    gap: 5px;
+    .timekeepingLegend{
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      background-color: $dotOrrange;
+    }
+    
+  }
+  .legendOuter:first-child{
+    align-items: center;
+    .timekeepingLegend{
+      background-color: #06AB00;
+    } 
+  }
+  .legendOuter:nth-child(2){
+    align-items: center;
+    .timekeepingLegend{
+      background-color: #F18A00;
+    } 
+  }
+  .legendOuter:nth-child(3){
+    align-items: center;
+    .timekeepingLegend{
+      background-color: #65C4D9;
+    } 
+  }
+  .legendOuter:nth-child(4){
+    align-items: center;
+    .timekeepingLegend{
+      background-color: #E52C2C;
+    } 
+  }
+}

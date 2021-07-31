@@ -1,0 +1,278 @@
+@import "./color.scss";
+.dot-card-leave {
+    // .dot-card {
+    box-shadow: 0px 3px 6px #00000017 !important;
+    // width: auto !important;
+    height: auto;
+    // width: 100% !important;
+    margin: 0 !important;
+    @include  device-md {
+        width: 100% !important;
+    }
+    @include  device-sm {
+        width: 100% !important;
+    }
+    background-color: $dotWhite;
+    // }
+    position: relative;
+
+    .card-header {
+        text-align: left;
+        font: normal normal medium 14px/18px QuicksandMedium;
+        letter-spacing: 0px;
+        color: #193256 !important;
+        opacity: 1;
+        font-weight: 600 !important;
+        // font-size: 18px !important;
+        font-size: 100% !important;
+        line-height: 24px !important;
+        font-family: QuicksandMedium !important;
+        display: flex;
+
+        .approve {
+            float: right;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: $dotOrrange;
+        }
+
+        .reject {
+            float: right;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: $dotRed;
+        }
+
+        .pending {
+            float: right;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    }
+
+    .card-description {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        min-height: 165px !important;
+
+        // img {
+        //     width: 48px !important;
+        //     height: 48px !important;
+        // }
+
+        img {
+            width: 25% !important;
+            height: 25% !important;
+        }
+
+        .card-value {
+            text-align: left;
+            font: normal normal bold 30px/30px Quicksand;
+            font-weight: bold !important;
+            font-size: 30px !important;
+            line-height: 30px !important;
+            font-family: Quicksand !important;
+            letter-spacing: 0px;
+            color: #193256;
+            opacity: 1;
+        }
+    }
+
+    .card-description-duration {
+        .title {
+            text-align: left;
+            font: normal normal medium 12px/15px Quicksand;
+            font-size: 100%;
+            line-height: 12px;
+            font-family: Quicksand;
+            font-weight: 600;
+        }
+
+        .date {
+            text-align: right;
+            color: $dotOrrange;
+            font-size: 12px;
+            line-height: 12px;
+            font-family: Quicksand;
+            font-weight: 600;
+        }
+    }
+
+    .appraisalCard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 48px !important;
+            height: 48px !important;
+        }
+
+        .card-value {
+            text-align: left;
+            font: normal normal bold 30px/30px Quicksand;
+            font-weight: bold !important;
+            font-size: 30px !important;
+            line-height: 30px !important;
+            font-family: Quicksand !important;
+            letter-spacing: 0px;
+            color: #193256;
+            opacity: 1;
+        }
+    }
+}
+
+.data-card-l {
+    justify-content: center;
+    align-items: center;
+
+    // height: 120px;
+    // max-height: 120px;
+    width: 100%;
+    max-width: 100%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 7px 13px #00000008;
+    border: 1px solid #ececec;
+    border-radius: 6px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    // gap: 10px;
+
+    .total {
+        font-size: 28px;
+        font-weight: bold;
+        font-family: Quicksand;
+        color: $dotOrrange;
+        margin-bottom: 10px;
+    }
+
+    .type {
+        font-size: 12px;
+        font-weight: 600;
+        font-family: Quicksand;
+        color: $dotNavyBlue;
+        line-height: normal;
+    }
+
+    .closing {
+        font-size: 12px;
+        font-weight: 600;
+        font-family: Quicksand;
+        color: $dotDarkGrey;
+        line-height: normal;
+    }
+}
+
+.user-key-milestone {
+    background: #efefef 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    min-height: 200px;
+    padding: 1%;
+}
+
+.payslip-dropdown {
+    font-size: 20px;
+
+    .menu {
+        .item {
+            .text {
+                font-size: 20px !important;
+            }
+        }
+    }
+}
+
+.payslip-list {
+    border-radius: 10px !important;
+    .month {
+        text-align: left;
+        font: normal normal medium 14px/18px Quicksand;
+        color: $dotNavyBlue;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 600;
+        font-family: Quicksand;
+    }
+
+    .salary {
+        text-align: center;
+        font: normal normal medium 16px/17px Quicksand;
+        color: $dotNavyBlue;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 700;
+        font-family: Quicksand;
+    }
+
+    .detail {
+        text-align: right;
+        font: normal normal medium 14px/18px Quicksand;
+
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 600;
+        font-family: Quicksand;
+        text-decoration: underline;
+        color: $dotOrrange;
+        cursor: pointer;
+    }
+}
+
+.apply-leave {
+    position: relative;
+    .ui.form .fields > .field {
+        padding-left: 0 !important;
+    }
+
+    &-form {
+        z-index: 9000090000;
+        position: absolute;
+    }
+}
+
+.leave-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 15px;
+    // flex-wrap: wrap;
+  
+}
+
+
+.apply-leave-form{
+    .formGroup input, textarea {
+        line-height: 100% !important;
+        font-size: 100% !important;
+        color: $dotNavyBlue !important;
+        font-family: Quicksand !important;
+        font-weight: 500 !important;
+        padding-left: .5em !important;
+    }
+    .apply-leave-attachment{
+        font-weight: 600 !important;
+        line-height: 100% !important;
+        font-size: 100% !important;
+        color: $dotOrrange !important;
+        font-family: Quicksand !important;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+
+.performance-report-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.appraisals-report-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}

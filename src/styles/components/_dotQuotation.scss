@@ -1,0 +1,291 @@
+@import "./color.scss";
+
+.FormQuotation {
+    
+    .quotationCheckbox{
+        .checkbox label {
+            margin-top: 10px;
+            color: $dotNavyBlue !important;
+            font-size: 14px !important;
+            font-family: QuicksandBold;
+            // align-items: center !important;
+            padding-top: 4px;
+        }
+
+        .ui.checkbox .box:before,
+    .ui.checkbox label:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 18px !important;
+        min-height: 18px !important;
+        background: $dotWhite;
+        border-radius: 0.21428571rem;
+        transition: border 0.1s ease, opacity 0.1s ease, transform 0.1s ease, box-shadow 0.1s ease;
+        border: 2px solid $dotOrrange;
+
+        margin: 3px;
+    }
+
+    .ui.checkbox input:checked ~ .box:after,
+    .ui.checkbox input:checked ~ label:after {
+        padding-top: 0px;
+        width: 18px !important;
+        min-height: 18px !important;
+        color: $dotWhite;
+        background: $dotOrrange;
+        border: 1px solid $dotOrrange;
+        border-radius: 0.21428571rem;
+        font-size: 14px;
+
+        margin: 3px;
+    }
+    .ui.checkbox input:focus ~ label:before {
+        background: $dotWhite;
+        border-color: $dotOrrange !important;
+    }
+
+    }
+    
+}
+.quoteContainer {
+    padding: 2% 8% 2% 8% !important;
+}
+.QuotationPara p {
+    margin-top: 20px;
+    padding: 0px 9px;
+
+    font-size: 20px !important;
+    font-family: QuicksandBold !important;
+}
+.QuotationCreateEndCheckbox .item {
+    padding: 10px 9px;
+}
+.QuotationCreateEndCheckbox .item:first-child {
+    padding-right: 10% !important;
+}
+.QuotationCreateEndCheckbox {
+    margin-top: 50px !important;
+}
+
+.MarginRed10 {
+    margin-top: 0px !important;
+}
+
+.QuotationstatementContainer {
+    p{
+        color: $dotNavyBlue;
+    }
+    padding: 10px !important;
+    /* margin: 15px 0px 0px 15px !important; */
+    border: 2px solid $dotDarkGrey !important;
+    border-radius: 10px;
+    background-color: $dotSmallContainerBg !important;
+}
+.CreateQuotationTableFooter .label {
+    padding: 8px;
+    background-color: transparent;
+}
+.CreateQuotationTableFooter .label:first-child {
+    font-size: 18px !important;
+    color: $dotNavyBlue;
+}
+.CreateQuotationTableFooter .label:nth-child(2) {
+    font-size: 16px !important;
+    float: right;
+    color: $dotNavyBlue;
+}
+.QuotationTable .ui.table thead th {
+    background-color: $dotNavyBlue;
+}
+.QuotationTable .ui.table thead tr:first-child {
+    th {
+        color: $dotOrrange !important;
+    }
+    th:first-child {
+        border-right: 1px solid $dotWhite;
+        border-bottom: 1px solid $dotWhite;
+    }
+    th:nth-child(2) {
+        border-right: 1px solid $dotWhite;
+        border-left: 1px solid $dotWhite;
+        border-bottom: 1px solid $dotWhite;
+    }
+    th:nth-child(3) {
+        border-right: 1px solid $dotWhite;
+        border-left: 1px solid $dotWhite;
+        border-bottom: 1px solid $dotWhite;
+    }
+    th:last-child {
+        border-left: 1px solid $dotWhite;
+        border-bottom: 1px solid $dotWhite;
+    }
+}
+.QuotationTable .ui.table thead tr:last-child {
+    th {
+        color: $dotWhite !important;
+        font-size: Quicksand !important;
+    }
+    th:first-child {
+        border-right: 1px solid $dotWhite;
+    }
+    th:nth-child(2) {
+        border-right: 1px solid $dotWhite;
+        border-left: 1px solid $dotWhite;
+    }
+    th:nth-child(3) {
+        border-right: 1px solid $dotWhite;
+        border-left: 1px solid $dotWhite;
+    }
+    th:nth-child(4) {
+        border-right: 1px solid $dotWhite;
+        border-left: 1px solid $dotWhite;
+    }
+    th:nth-child(5) {
+        border-right: 1px solid $dotWhite;
+        border-left: 1px solid $dotWhite;
+    }
+    th:last-child {
+        border-left: 1px solid $dotWhite;
+    }
+}
+.quoteDivBottom {
+    overflow: hidden;
+    position: relative;
+    .ui.input.error>input {
+        background-color: #fff6f6;
+        // border-color: #e0b4b4 !important;
+        border: 1px solid brown !important;
+        color: #9f3a38;
+        box-shadow: none;
+        // padding: 4px !important;
+    }
+    .input{
+        .icon{
+            margin-left: 210px !important;
+        }
+    }
+    
+}
+.quoteDivBottom .input {
+    input{
+        margin-left: 4px !important;
+        margin-right: 4px !important;
+        border-radius: 4px !important;
+    }
+    // input::placeholder {
+    //     color: blue;
+    //     opacity: 1; /* Firefox */
+    //   } 
+    border-radius: 5px;
+    border: 1px solid $dotLightGrey !important;
+    float: right;
+    padding: 4px 0px 4px 0px;
+    background-color: $dotWhite;
+}
+.cusMargin10 {
+    margin-top: 14px;
+}
+.quoteDivBottom .input input {
+    width: 150px !important;
+    border: none !important;
+}
+.quoteDivBottom .input .label {
+    width: 200px !important;
+    background-color: $dotWhite;
+    color: $dotNavyBlue;
+    border-right: 1px solid $dotNavyBlue;
+}
+.quotationTableBody tr td {
+    .ui.input input {
+        // display: inline !important;
+        border-width: 0 !important;
+    }
+}
+
+.QuotationTable table tbody tr td {
+    white-space: normal !important;
+}
+.checkWidth{
+    width: 48%;
+    @include device-sm {
+        width: 98%;
+    }
+}
+.checkPropertyWidth{
+    width: 97%;
+    @include device-sm {
+        width: 97%;
+    }
+}
+.assignToLabel{
+    margin-bottom: 6px;
+    label{
+        color: black;
+        font-weight: 600;
+    }
+}
+.multiCheckBox div {
+    // margin-left: 8px ;
+    width: 100%;
+    @include device-sm {
+        width: 100%;
+    }
+}
+.multiCheckBoxBlack{
+    .css-1vr111p-option{
+        color: $dotBlack !important;
+    }
+}
+.jobPropertiesUpdate{
+    background-color: $dotOrrange !important;
+    color: $dotWhite !important;
+}
+.multiCheckBox {
+    margin-left: 0px !important;
+}
+.multiCheckBox button {
+    border: 1px solid $dotDarkGrey;
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 0.4em 1em 0.5em 1em;
+    padding-left: 30px;
+    font-size: 12px;
+    font-family: QuicksandBold !important;
+    color: $dotDarkGrey;
+    width: 100%;
+    outline: 0;
+}
+.ui.form input[type="checkbox"] {
+    min-height: 14px !important;
+    width: 14px !important;
+}
+
+// .ui.form input[type=checkbox]:after {
+//     padding-top: 1px;
+//     width: 22px !important;
+//     min-height: 22px !important;
+//     color: $dotWhite;
+//     background: $dotOrrange;
+//     border: 1px solid $dotOrrange;
+//     border-radius: .21428571rem;
+//     font-size: 18px;
+
+// }
+.css-11unzgr {
+    max-height: 20em !important;
+    overflow-y: scroll !important;
+    border: 1px solid $dotDarkGrey;
+    border-radius: 5px;
+}
+
+tfoot td input {
+    border-width: 0px !important;
+    width: 100px !important;
+}
+.item .radio:first-child{
+    margin-right: 20px;
+}
+// .topMarginInput .item:first-child{
+//     margin-right: 20px;
+// }

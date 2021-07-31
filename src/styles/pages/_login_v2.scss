@@ -1,0 +1,34 @@
+.login {
+    &-container_v2 {
+        height: 100vh;
+        width: 100vw;
+        max-height: 100vh;
+        max-width: 100vw;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        background: rgb(48, 105, 170);
+        background: linear-gradient(180deg, rgba(48, 105, 170, 1) 0%, rgba(101, 227, 241, 1) 100%);
+        position: relative;
+    }
+    &-intro_v2{
+        &-background{
+            opacity: 1;
+            background: #193256;
+            position: absolute;
+            z-index: 8;
+            height: 100vh;
+            max-height: 100vh;
+            width: 100%;
+            max-width: 100%;
+            clip-path: circle(49% at 0 50%);
+            transform: scale(0);
+            transform: translateX(-100%);
+            opacity: 1;
+        }
+        &-logo{
+
+        }
+
+    }
+}

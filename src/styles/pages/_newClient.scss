@@ -1,0 +1,57 @@
+@import "../components/color";
+.new-client {
+    &-add-round {
+        background-color: $dotOrrange !important;
+        height: 35px;
+        width: 35px;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 0 !important;
+        border-radius: 50% !important;
+        color: white;
+    }
+    &-delete{
+        background-color: transparent !important;
+        height: 35px;
+        width: 35px;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 0 !important;
+        // border-radius: 50% !important;
+        // margin-left: 10px !important;
+        color: white;
+    }
+    // &-delete-div{
+    //     .ui.button {
+    //         margin: 0 .25 0 0 !important;
+    //     }
+    // }
+}
+.contactDiv{
+    padding: 10px;
+    border: 2px solid $dotContactBorder;
+    border-radius: 5px;
+}
+.contactAddButton{
+    flex-direction: row-reverse !important;
+}
+.addContactButton{
+    padding: 15px 0px 0px 0px;
+}
+.documentInputGroup{
+    margin-left: 0px !important;
+.documentInput{
+    .ui.button{
+        background-color: $dotOrrange !important;
+        color: $dotWhite !important;
+    }
+    input{
+        width: 63% !important;
+    }
+}
+.ui.button.dotButton {
+    margin: 0px 0.25em 0 33px !important;
+}
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Quote_Approval_Pending_" data-name="Quote Approval Pending " transform="translate(-931.274 -184)">
+    <circle id="Ellipse_93" data-name="Ellipse 93" cx="24" cy="24" r="24" transform="translate(931.274 184)" fill="#f18a00"/>
+    <g id="accepted" transform="translate(896.934 193.859)">
+      <path id="Path_105083" data-name="Path 105083" d="M336.559,14.934h4.855l-6.147-6.147v4.855A1.293,1.293,0,0,0,336.559,14.934Z" transform="translate(-272.332 -8.336)" fill="#fff"/>
+      <path id="Path_105084" data-name="Path 105084" d="M163.537,222.8a5,5,0,1,0,5,5A5.009,5.009,0,0,0,163.537,222.8Zm2.294,4.381-2.333,2.333a.77.77,0,0,1-1.089,0l-1.166-1.166a.77.77,0,0,1,1.089-1.089l.622.622,1.788-1.788a.77.77,0,0,1,1.089,1.089Z" transform="translate(-104.67 -211.363)" fill="#fff"/>
+      <path id="Path_105085" data-name="Path 105085" d="M64.227,8.138A2.835,2.835,0,0,1,61.4,5.306V0H51.032A2.835,2.835,0,0,0,48.2,2.832V23.45a2.835,2.835,0,0,0,2.832,2.832H66.7a2.835,2.835,0,0,0,2.832-2.832V8.138ZM58.867,22.983A6.543,6.543,0,1,1,65.41,16.44,6.55,6.55,0,0,1,58.867,22.983Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

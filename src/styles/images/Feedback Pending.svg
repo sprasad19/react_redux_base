@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Feedback_Pending_" data-name="Feedback Pending " transform="translate(-1148.274 -184)">
+    <path id="Path_105082" data-name="Path 105082" d="M24,0A24,24,0,1,1,0,24,24,24,0,0,1,24,0Z" transform="translate(1148.274 184)" fill="#f18a00"/>
+    <path id="Icon_material-feedback" data-name="Icon material-feedback" d="M22.165,3H5.129A2.127,2.127,0,0,0,3.011,5.129L3,24.295l4.259-4.259H22.165a2.136,2.136,0,0,0,2.129-2.129V5.129A2.136,2.136,0,0,0,22.165,3ZM14.712,15.777H12.583V13.647h2.129Zm0-4.259H12.583V7.259h2.129Z" transform="translate(1158.627 197.353)" fill="#fff"/>
+  </g>
+</svg>

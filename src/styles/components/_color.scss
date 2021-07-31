@@ -1,0 +1,29 @@
+$dotNavyBlue: #193256;
+$dotOrrange: #f18a00;
+$dotWhite: #ffffff;
+$dotLightBlue: #f1f1f1;
+$dotLightGrey: #f6f6f6;
+$dotDarkGrey: #cbcbcb;
+$dotSmallContainerBg: #f6f6f6;
+$dotBlack: #000000;
+$dotGreen: green;
+$dotRed: #e52c2c;
+$dotModalBg: #f3f7f9;
+$dotModalBorder: #c2e6f8;
+$dotContactBorder: #e8e8e8;
+$dotMicBlue: #00AFE7;
+
+.trst {
+  color: #f18a00;
+  // div > div > .css-1vr111p-option {
+
+  // }
+  div > div > .css-1qprcsu-option {
+    background-color: #c2e6f8;
+    color: #f18a00 !important ;
+    input[type="checkbox"] {
+      background-color: #f18a00 !important;
+      color: #f18a00 !important;
+    }
+  }
+}

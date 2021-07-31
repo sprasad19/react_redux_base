@@ -1,0 +1,87 @@
+.invoice-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.invoice-right-flex {}
+
+.invoice-card {
+    display: flex;
+    background-color: $dotWhite;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    gap: 5px;
+    // box-shadow: 1px 1px 1px $black;
+
+
+    .ui.toggle.checkbox {
+        min-height: 0 !important;
+    }
+
+    .ui.toggle.checkbox .box:before,
+    .ui.toggle.checkbox label:before {
+        // background-color: #F18A00;
+        background: #fff linear-gradient(transparent, rgba(0, 0, 0, .05));
+    }
+
+    .ui.toggle.checkbox .box:after,
+    .ui.toggle.checkbox label:after {
+        width: 1.4rem !important;
+        height: 1.4rem !important;
+        top: -3px !important;
+        background-color: #F18A00;
+    }
+
+    .ui.toggle.checkbox input:checked~.box:before,
+    .ui.toggle.checkbox input:checked~label:before {
+        background-color: #FFE7C8 !important;
+    }
+
+    .ui.toggle.checkbox .box:before,
+    .ui.toggle.checkbox label:before {
+        // width: 2.8rem !important;
+        height: 1rem !important;
+    }
+
+    .ui.toggle.checkbox .box,
+    .ui.toggle.checkbox label {
+        min-height: 1rem !important;
+    }
+
+}
+
+
+.ui.icon.button.invoice-button {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+
+.invoices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 7px;
+    opacity: 1;
+    width: 100%;
+    min-height: 300px;
+    gap: 1%;
+    margin-top: 1%;
+    text-align: left;
+font: normal normal bold 20px/25px Quicksand;
+letter-spacing: 0px;
+color: #193256;
+opacity: 1;
+font-weight: 900;
+font-size: 20px;
+line-height: 25px;
+font-family: Quicksand;
+// letter-spacing: 0px;
+}

@@ -1,0 +1,99 @@
+.table-tab {
+    height: 9em;
+    width: 100% !important;
+    color: #193256;
+
+    &:hover {
+        color: #193256;
+    }
+    &.active {
+        color: #ffffff !important;
+        background: #f18a00 0% 0% no-repeat padding-box !important;
+    }
+
+    border-radius: 5px !important;
+    // border-radius: 8px !important;
+}
+
+.card-table-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: auto;
+    width: 100%;
+    align-items: baseline;
+    // gap: 10px;
+    color: inherit !important;
+
+    .card-title {
+        text-align: left;
+        font: normal normal medium 16px/17px Quicksand;
+        letter-spacing: 0px;
+        color: inherit !important;
+        opacity: 1;
+        font-family: Quicksand;
+        font-variant: normal;
+        font-weight: 600;
+        font-size: 1.3em;
+        line-height: 1.6em;
+    }
+
+    .card-count {
+        text-align: left;
+        font: normal normal medium 16px/17px Quicksand;
+        letter-spacing: 0px;
+        color: inherit !important;
+        opacity: 1;
+        font-family: Quicksand;
+        font-variant: normal;
+        font-weight: 600;
+        font-size: 1.3em;
+        line-height: 1.6em;
+    }
+}
+
+.card-table-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    // gap: 20px;
+
+    img {
+        min-width: 30px !important;
+        max-width: 30px !important;
+        object-fit: cover;
+    }
+}
+
+.table-header {
+    font: normal normal medium 14px/18px Quicksand !important;
+}
+
+.table-body {
+    font: normal normal medium 15px/18px Quicksand !important;
+    color: $dotNavyBlue;
+    font-weight: 600;
+    font-family: Quicksand !important;
+    font-size: 16px;
+}
+
+.table-option-popup {
+    padding: 0.833em 0 0 0 !important;
+}
+
+.no-record-found {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Quicksand;
+    min-height: 50vh;
+    align-items: center;
+    text-align: center;
+}
+.customTableWraper{
+    .ui.table thead th {
+        padding: .4257143em 0.85714em !important;
+    }
+}
+

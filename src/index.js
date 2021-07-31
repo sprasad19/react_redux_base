@@ -2,16 +2,26 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.scss";
 import App from "./App";
+import "./config/ReactotronConfig";
 import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import { persistor, store } from "./redux/store";
 import { PersistGate } from "redux-persist/integration/react";
-
+import { BrowserRouter } from "react-router-dom";
+if (process.env.NODE_ENV !== "development") {
+  console.log = () => {};
+  console.info = () => {};
+  console.warn = () => {};
+  console.error = () => {};
+  console.debug = () => {};
+}
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
+      <BrowserRouter>
         <App />
+      </BrowserRouter>
       </PersistGate>
     </Provider>
   </React.StrictMode>,

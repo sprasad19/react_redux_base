@@ -1,0 +1,14 @@
+.bubble_s-enter {
+    opacity: 0;
+  }
+  .bubble_s-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+  }
+  .bubble_s-exit {
+    opacity: 1;
+  }
+  .bubble_s-exit-active {
+    opacity: 0;
+    transition: opacity 500ms;
+  }

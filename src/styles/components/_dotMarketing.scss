@@ -1,0 +1,42 @@
+@import "./color.scss";
+
+.progressBarContainer {
+    font-size: 100%;
+    font-family: QuicksandBold !important;
+    color: $dotNavyBlue;
+    padding: 1.5% 3% 1.5% 3%;
+    border: 2px solid $dotDarkGrey !important;
+    border-radius: 10px;
+    background-color: $dotLightGrey !important;
+    // padding: 15px;
+    &-nodot {
+      border: 1px solid $dotDarkGrey !important;
+      min-height: 130px;
+    }
+    .labelPositionLeft{
+        position: absolute;
+    }
+    .labelPositionRight{
+        // position: absolute;
+        float: right !important;
+    }
+    .ui.progress:first-child {
+        margin: 0 0 0.5em !important;
+    }
+    .ui.progress {
+        margin: 1em 0 1em !important;
+    }
+    
+  }
+  .progressHeading{
+    font-family: QuicksandBold !important;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.slaStatusButton{
+    height: 40px !important;
+    min-width: 180px !important;
+}
+.marketing-submenu{
+    padding-left: 50px !important;
+}

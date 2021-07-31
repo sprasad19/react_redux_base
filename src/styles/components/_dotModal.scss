@@ -1,0 +1,125 @@
+@import "./color.scss";
+
+.ModalDeleteLabel {
+    background-color: transparent !important;
+    font-size: 18px !important;
+    padding: 0 !important;
+    color: $dotNavyBlue !important;
+
+}
+
+.ModalDeleteLabel .icon {
+    color: $dotRed;
+    font-size: 22px;
+}
+
+// @media only screen and (min-width: 1200px){
+@include device-lg {
+    .modalContainer {
+        width: 60% !important;
+        margin: 0;
+    }
+}
+.modalContainer{
+    .scrolling {
+        padding: 1rem !important;
+    }
+    // .ui.selection.dropdown {
+    //     min-height: 2em !important;
+    //     padding: .58571429em 2.1em .78571429em 0.6em !important;
+    // }
+    // .ui.input {
+    //     min-height: 2.6em !important;
+    // }
+}
+.modalContainer .actions {
+    background-color: $dotWhite !important;
+}
+
+.modalDiv {
+    padding: 2% 2% 0% 2%;
+    margin-bottom: 14px;
+    background-color: $dotModalBg;
+    border: 1px solid $dotModalBorder;
+    border-radius: 8px;
+    .ui.form .fields .disabled {
+        opacity: 0.6 !important;
+    }
+}
+
+.Approved {
+    border: 2px solid #06AB00;
+}
+
+.Submitted {
+    border: 2px solid orange;
+}
+
+.Saved {
+    border: 2px solid #65C4D9;
+}
+
+.Rejected {
+    border: 2px solid #E52C2C;
+}
+
+.AddModalLabel {
+    // margin-top: 20px !important;
+    margin-right: 10px !important;
+    background-color: transparent !important;
+    font-size: 18px !important;
+    padding: 0 !important;
+    color: $dotOrrange !important;
+
+}
+
+.AddModalLabel .icon {
+    color: $dotOrrange;
+    font-size: 26px;
+    transform: translate(4px, 2px) !important;
+}
+
+.ui.dimmer {
+
+    background-color: rgba(0, 0, 0, .35) !important;
+    backdrop-filter: blur(1px) !important;
+}
+.feedbackRadioDiv{
+    display: inline-flex;
+    gap: 20px;
+    .checkbox{
+        top: 26px;
+        right: 11px;
+    }
+    margin-bottom: 30px;
+    margin-left: 8px;
+    .ui.radio.checkbox .box:after, .ui.radio.checkbox label:after {
+
+        width: 34px !important;
+        height: 34px !important;
+        left: -9px;
+        top: -9px
+    }
+   
+    div:nth-child(n){
+        .ui.radio.checkbox input:checked~.box:after, .ui.radio.checkbox input:checked~label:after {
+            background-color: red !important;
+        }
+    }
+    div:nth-child(n+6){
+        .ui.radio.checkbox input:checked~.box:after, .ui.radio.checkbox input:checked~label:after {
+            background-color: orange !important;
+        }
+    }
+   
+    div:nth-child(n+9){
+        .ui.radio.checkbox input:checked~.box:after, .ui.radio.checkbox input:checked~label:after {
+            background-color: #00cd1c !important;
+        }
+    }
+}
+.feedbackModalContainer{
+    .content {
+        padding-top: 0px !important;
+    }
+}

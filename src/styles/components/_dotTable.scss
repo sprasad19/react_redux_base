@@ -1,0 +1,226 @@
+@import "./color.scss";
+
+.tableHover > tr:hover {
+  background-color: $dotLightBlue !important;
+}
+.cusTable {
+  position: relative;
+}
+.cusTable thead {
+  background-color: $dotNavyBlue !important;
+  color: $dotWhite;
+}
+.cusTable tbody {
+  color: $dotNavyBlue;
+  font-family: QuicksandMedium !important;
+  font-size: 16px;
+}
+.cusTableFirstRow th:first-child {
+  padding-left: 36px !important;
+}
+
+.dotImage {
+  transform: translateY(3px);
+  padding-right: 18px !important;
+}
+
+// table .thead tr th {
+// border-left: .5px solid $dotWhite;
+// border-right: .5px solid $dotWhite;
+// border-bottom: .5px solid $dotDarkGrey;
+// }
+
+table.table tbody tr td {
+  border-left: 0.3px solid $dotDarkGrey;
+  border-right: 0.3px solid $dotDarkGrey;
+  border-bottom: 0.3px solid $dotDarkGrey;
+}
+.tableContainer {
+  overflow-x: scroll;
+  border-radius: 5px !important;
+  overflow: hidden;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px !important;
+}
+.tableContainer:hover {
+  overflow-x: visible;
+}
+
+.table {
+  margin: 0 auto;
+}
+.table th,
+td {
+  white-space: nowrap;
+}
+
+.cusTableDropdown .menu {
+  margin-left: -12px !important;
+  margin-top: 14px !important;
+}
+
+.fixed-row {
+  left: 0;
+  position: sticky;
+  top: auto;
+  background-color: $dotWhite;
+  z-index: 500;
+  // width: 125px;
+}
+.tableHover > tr:hover {
+  .fixed-row {
+    background-color: $dotLightBlue !important;
+  }
+}
+.cusTable {
+  tbody {
+    .fixed-row:nth-child(2) {
+      left: 128px;
+    }
+    .fixed-row:nth-child(3) {
+      left: 326px;
+    }
+  }
+  thead {
+    .fixed-row:nth-child(2) {
+      left: 128px;
+    }
+    .fixed-row:nth-child(3) {
+      left: 326px;
+    }
+  }
+
+  thead th {
+    padding: 0.32857143em 0.78571429em !important;
+  }
+}
+
+.tableScrollContainer {
+  overflow-x: auto;
+  // overflow: hidden;
+  /* width:70%; */
+  height: auto;
+
+  &::-webkit-scrollbar {
+    height: 6px !important;
+  }
+}
+// .tableScrollContainer:hover {
+//   overflow-x: visible;
+// }
+thead {
+  .headerSearch1 {
+    width: 80px !important;
+  }
+  .headerSearchClient {
+    width: 110px !important;
+  }
+  .headerSearch2 {
+    width: 175px !important;
+  }
+  .headerSearch3 {
+    width: inherit !important;
+  }
+  // .table-with-drop-down{
+  //   // padding: .32857143em .78571429em !important;
+  // }
+}
+
+.headerInput {
+  i.icon {
+    color: $dotWhite !important;
+    opacity: 0.8 !important;
+  }
+  ::placeholder {
+    color: white !important;
+    opacity: 1 !important;
+    font-family: QuicksandBold !important;
+  }
+  color: $dotWhite !important;
+  input {
+    color: $dotWhite !important;
+    font-family: QuicksandBold !important;
+    background-color: $dotNavyBlue !important;
+    border: none !important;
+  }
+}
+
+.ApprovalTableBody tr td:last-child {
+  white-space: normal !important;
+}
+
+.ApprovalTable {
+  thead {
+    tr td:last-child {
+      min-width: 350px !important;
+    }
+  }
+  tbody {
+    tr td:last-child {
+      min-width: 350px !important;
+    }
+  }
+}
+
+.ApprovalDropdown {
+  width: inherit !important;
+  .search {
+    color: $dotWhite !important;
+  }
+  color: $dotWhite !important;
+  background-color: $dotNavyBlue !important;
+  border: none !important;
+  .icon {
+    color: $dotWhite !important;
+  }
+  // z-index: 999 !important;
+}
+.ApprovalCalendar {
+  .ui.input {
+    width: 120px !important;
+    .search {
+      color: $dotWhite !important;
+    }
+    input {
+      padding: 0px !important;
+      color: $dotWhite !important;
+      font-family: QuicksandBold !important;
+      background-color: $dotNavyBlue !important;
+      border: none !important;
+    }
+    .icon{
+      color: $dotWhite !important;
+      opacity: 0.8 !important;
+      width: 1.271429em !important;
+    }
+    ::placeholder {
+      color: white !important;
+      opacity: 1 !important;
+      font-family: QuicksandBold !important;
+    }
+  }
+}
+.ApprovalDropdown:not(.button) > .default.text {
+  color: $dotWhite !important;
+}
+
+.cusWidthApprovalFixed{
+  width: 120px !important;
+}
+.cusStyleWidth{
+  width: 120px !important;
+}
+.cusStyleWidth2{
+  width: 140px !important;
+}
+
+.tableHeadHeight{
+  thead{
+    tr{
+      height: 46px;
+    }
+  }
+}
+

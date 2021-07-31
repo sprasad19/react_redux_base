@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.scss';
+import logo from "./logo.svg";
+import "./App.scss";
+import { Helmet } from "react-helmet";
+import { createStructuredSelector } from "reselect";
+import { connect } from "react-redux";
+import { Redirect, Route, Switch } from "react-router-dom";
+import { Home } from "./containers/Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Helmet titleTemplate="%s - Netflix" defaultTitle="Netflix">
+        <meta name="description" content="Dot Kris Web Application" />
+      </Helmet>
+      <Switch>
+        <Route
+          exact
+          path="/"
+          render={
+            () => (
+              // checkToken(token) ? (
+              //   <Redirect to="/dashboard" />
+              // ) : (
+              //   // <Suspense fallback={null}>
+              <Home />
+            )
+            // </Suspense>
+            // )
+          }
+        ></Route>
+      </Switch>
     </div>
   );
 }
 
-export default App;
+const mapStateToProps = createStructuredSelector({});
+function mapDispatchToProps(dispatch) {
+  return {
+    dispatch,
+  };
+}
+export default connect(mapStateToProps, mapDispatchToProps)(App);

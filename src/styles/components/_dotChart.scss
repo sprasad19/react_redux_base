@@ -1,0 +1,34 @@
+// @import "./color.scss";
+.chart {
+  min-width: 800px !important;
+  min-height: auto !important;
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+}
+.chartContainer {
+  padding: 20px 20px 0px;
+  overflow-x: auto;
+  height: auto;
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+}
+
+// .chartContainer {
+//   &::-webkit-scrollbar {
+//     -webkit-appearance: none;
+//     width: 2px !important;
+//     height: 2px !important;
+//   }
+// }
+// .chartContainer:hover {
+//   overflow-x: auto;
+// }
+
+
+.chart-container{
+  &::-webkit-scrollbar {
+    height: 4px !important;
+  }
+}

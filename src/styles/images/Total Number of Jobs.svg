@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Total_Number_of_Jobs" data-name="Total Number of Jobs" transform="translate(-299.274 -184)">
+    <circle id="Ellipse_90" data-name="Ellipse 90" cx="24" cy="24" r="24" transform="translate(299.274 184)" fill="#f18a00"/>
+    <g id="tickets" transform="translate(312.016 194.226)">
+      <path id="Path_104312" data-name="Path 104312" d="M209.07,8.56c7.661,0,7.1,0,7.213,0a1.586,1.586,0,0,0-.414-.722l-2.1-2.1a1.571,1.571,0,0,0-1.734-.328.836.836,0,0,1-1.1-1.1,1.571,1.571,0,0,0-.328-1.734l-2.1-2.1a1.6,1.6,0,0,0-2.258,0L203.617,3.1,209.07,8.56Z" transform="translate(-194.215 -0.008)" fill="#fff"/>
+      <path id="Path_104313" data-name="Path 104313" d="M89.909,88.248l-4.478,4.478h8.951Z" transform="translate(-81.486 -84.174)" fill="#fff"/>
+      <path id="Path_104314" data-name="Path 104314" d="M408.854,221.247a1.571,1.571,0,0,0,.994-1.458v-2.971a1.6,1.6,0,0,0-1.6-1.6H405v13.611h3.251a1.6,1.6,0,0,0,1.6-1.6v-2.971a1.571,1.571,0,0,0-.994-1.458.836.836,0,0,1,0-1.559Z" transform="translate(-386.3 -205.284)" fill="#fff"/>
+      <path id="Path_104315" data-name="Path 104315" d="M0,216.818v2.97a1.571,1.571,0,0,0,.994,1.458.836.836,0,0,1,0,1.559A1.571,1.571,0,0,0,0,224.264v2.971a1.6,1.6,0,0,0,1.6,1.6H17.315V215.221H1.6a1.6,1.6,0,0,0-1.6,1.6Zm4.848,1.625H15.237v1.385H4.848Zm0,2.77H15.237V222.6H4.848Zm0,2.77H15.237v1.385H4.848Z" transform="translate(0 -205.284)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
