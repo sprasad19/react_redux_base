@@ -1,10 +1,9 @@
-import logo from "./logo.svg";
 import "./App.scss";
 import { Helmet } from "react-helmet";
 import { createStructuredSelector } from "reselect";
 import { connect } from "react-redux";
 import { Redirect, Route, Switch } from "react-router-dom";
-import { Home } from "./containers/Home/Home";
+import  Home  from "./containers/Home/Home";
 
 function App() {
   return (

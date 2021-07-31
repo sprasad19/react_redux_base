@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./index.scss";
 import App from "./App";
 import "./config/ReactotronConfig";
@@ -16,7 +17,7 @@ if (process.env.NODE_ENV !== "development") {
   console.debug = () => {};
 }
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
       <BrowserRouter>
@@ -24,7 +25,8 @@ ReactDOM.render(
       </BrowserRouter>
       </PersistGate>
     </Provider>
-  </React.StrictMode>,
+  // </React.StrictMode>
+  ,
   document.getElementById("root")
 );
 
